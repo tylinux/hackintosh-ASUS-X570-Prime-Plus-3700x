@@ -3,7 +3,7 @@ Hackintosh bootloader configuration with OpenCore.
 
 ## Support OS Versions
 
-* macOS 10.14.4 —— macOS 10.15.1
+* macOS 10.14.4 —— macOS 10.15.3
 
 ## Usage 
 1. Download `EFI` folder
