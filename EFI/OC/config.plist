@@ -22,6 +22,14 @@
 				<key>Path</key>
 				<string>SSDT_NVMe-Pcc.aml</string>
 			</dict>
+			<dict>
+				<key>Comment</key>
+				<string>Fix USB Power</string>
+				<key>Enabled</key>
+				<true/>
+				<key>Path</key>
+				<string>SSDT-EC-USBX-AMD.aml</string>
+			</dict>
 		</array>
 		<key>Block</key>
 		<array/>
