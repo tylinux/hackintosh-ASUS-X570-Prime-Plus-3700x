@@ -4,7 +4,7 @@ Hackintosh bootloader configuration with OpenCore.
 
 ## Support OS Versions
 
-- macOS 10.14.4 —— macOS 10.15.4
+- macOS 10.14.4 —— macOS 10.15.5
 
 ## Test Platform
 
