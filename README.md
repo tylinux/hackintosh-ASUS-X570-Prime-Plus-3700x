@@ -3,7 +3,12 @@ Hackintosh bootloader configuration with OpenCore.
 
 ## Support OS Versions
 
-* macOS 10.14.4 —— macOS 10.15.3
+* macOS 10.14.4 —— macOS 10.15.4
+
+## Test Platform
+
+* ASUS X570 Prime Plus + AMD 3700X
+* ASUS X370 Prime Plus + AMD 1700
 
 ## Usage 
 1. Download `EFI` folder
@@ -17,6 +22,11 @@ Hackintosh bootloader configuration with OpenCore.
 2. `Kexts/NoVPAJpeg.kext`: show JPG pictures
 
 ## History 
+
+### 2020-05-27
+
+1. Add macOS 10.15.4 Support
+
 ### 2020-05-08 
 
 1. Upgrade OpenCore to 0.5.8
