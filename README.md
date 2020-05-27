@@ -27,7 +27,8 @@ Hackintosh bootloader configuration with OpenCore.
 
 ### 2020-05-27
 
-1. Add macOS 10.15.4 Support
+1. Add macOS 10.15.4 && 10.15.5 Support
+2. Test on ASUS X370 Prime Pro
 
 ### 2020-05-08
 
