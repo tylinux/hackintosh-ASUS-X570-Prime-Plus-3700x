@@ -6,7 +6,7 @@ Hackintosh bootloader configuration with OpenCore.
 
 - macOS 10.14.4 —— macOS 10.15.5
 
-## Test Platform
+## Tested Platform
 
 - ASUS X570 Prime Pro + AMD 3700X
 - ASUS X370 Prime Pro + AMD 1700
