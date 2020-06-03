@@ -1449,8 +1449,6 @@
 			<string>None</string>
 			<key>HideAuxiliary</key>
 			<false/>
-			<key>HideSelf</key>
-			<true/>
 			<key>PickerAttributes</key>
 			<integer>1</integer>
 			<key>PickerAudioAssist</key>
@@ -1690,8 +1688,6 @@
 			<false/>
 			<key>ConsoleMode</key>
 			<string></string>
-			<key>DirectGopCacheMode</key>
-			<string></string>
 			<key>DirectGopRendering</key>
 			<false/>
 			<key>IgnoreTextInGraphics</key>
@@ -1701,6 +1697,10 @@
 			<key>ReconnectOnResChange</key>
 			<false/>
 			<key>ReplaceTabWithSpace</key>
+			<false/>
+			<key>Resolution</key>
+			<string>Max</string>
+			<key>SanitiseClearScreen</key>
 			<false/>
 			<key>TextRenderer</key>
 			<string>BuiltinGraphics</string>
@@ -1723,6 +1723,8 @@
 			<false/>
 			<key>AppleSmcIo</key>
 			<false/>
+			<key>AppleUserInterfaceTheme</key>
+			<false/>
 			<key>DataHub</key>
 			<false/>
 			<key>DeviceProperties</key>
@@ -1744,13 +1746,13 @@
 			<false/>
 			<key>ReleaseUsbOwnership</key>
 			<false/>
-			<key>RequestBootVarFallback</key>
-			<true/>
 			<key>RequestBootVarRouting</key>
 			<true/>
 			<key>UnblockFsConnect</key>
 			<false/>
 		</dict>
+		<key>ReservedMemory</key>
+		<array/>
 	</dict>
 </dict>
 </plist>
