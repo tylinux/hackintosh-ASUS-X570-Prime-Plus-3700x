@@ -4,7 +4,7 @@ Hackintosh bootloader configuration with OpenCore.
 
 ## Support OS Versions
 
-- macOS 10.14.4 —— macOS 10.15.5
+- macOS 10.14.4 —— macOS 10.15.6
 
 ## Tested Platform
 
@@ -24,6 +24,9 @@ Hackintosh bootloader configuration with OpenCore.
 2. `Kexts/NoVPAJpeg.kext`: show JPG pictures
 
 ## History
+
+### 2020-07-19
+1. Confirm support 10.15.6
 
 ### 2020-05-27
 
