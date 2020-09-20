@@ -1,6 +1,4 @@
-## About
-
-Hackintosh bootloader configuration with OpenCore.
+# Hackintosh config for ASUS X570 Prime Plus
 
 ## Support OS Versions
 
@@ -14,18 +12,23 @@ Hackintosh bootloader configuration with OpenCore.
 ## Usage
 
 1. Download `EFI` folder
-2. Download `macinfo` and run `macserial -a | grep iMacPro1,1` to generate `Serial Number` and `MLB`
+2. Download [OpenCore](https://github.com/acidanthera/OpenCorePkg/releases), go to `OpenCore-x.y.z-RELEASE/Utilities`, run `./macserial -a | grep iMacPro1,1` to generate `Serial Number` and `MLB`
 3. Open `EFI/OC/config.plist`, copy && paste your generated `Serial Number` and `MLB` to `PlatformInfo/Generic` and `PlatformInfo/SMBIOS`
 4. Put `EFI` folder to your disk's `EFI` partition
 
-## Some explain
+## ChangeLog
 
-1. `ACPI/SSDT_NVMe-Pcc.aml`: disable Intel P4510 SSD
-2. `Kexts/NoVPAJpeg.kext`: show JPG pictures
+### 2020-09-20
 
-## History
+1. Upgrade OpenCore to 0.6.1
+2. Upgrade AppleALC to 1.5.2
+3. Upgrade Lilu to 1.4.7
+4. Upgrade VirtualSMC to 1.16
+5. Upgrade WhateverGreen to 1.4.2
+6. Change default SerialNumber
 
 ### 2020-07-19
+
 1. Confirm support 10.15.6
 
 ### 2020-05-27
