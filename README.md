@@ -2,7 +2,7 @@
 
 ## Support OS Versions
 
-- macOS 10.14.4 —— macOS 10.15.6
+- macOS 10.14.4 —— macOS 10.15.7
 
 ## Tested Platform
 
@@ -17,6 +17,10 @@
 4. Put `EFI` folder to your disk's `EFI` partition
 
 ## ChangeLog
+
+### 2020-09-26
+
+1. Confirm support 10.15.7
 
 ### 2020-09-20
 
