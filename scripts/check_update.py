@@ -41,7 +41,6 @@ def get_local_kext_version(kext):
 
 def download_assets(assets):
     for asset in assets:
-        print(asset['name'])
         if 'release' not in asset['name'].lower():
             continue
         download_url = asset['browser_download_url']
